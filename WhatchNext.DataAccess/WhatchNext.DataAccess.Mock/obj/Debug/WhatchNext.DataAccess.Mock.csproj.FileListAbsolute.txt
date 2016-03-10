@@ -1,0 +1,16 @@
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WhatchNext.DataAccess\WhatchNext.DataAccess.Mock\obj\Debug\WhatchNext.DataAccess.Mock.csprojResolveAssemblyReference.cache
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WhatchNext.DataAccess\WhatchNext.DataAccess.Mock\bin\Debug\WhatchNext.DataAccess.Mock.dll
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WhatchNext.DataAccess\WhatchNext.DataAccess.Mock\bin\Debug\WhatchNext.DataAccess.Mock.pdb
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WhatchNext.DataAccess\WhatchNext.DataAccess.Mock\bin\Debug\Csla.dll
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WhatchNext.DataAccess\WhatchNext.DataAccess.Mock\bin\Debug\WhatchNext.Biz.dll
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WhatchNext.DataAccess\WhatchNext.DataAccess.Mock\bin\Debug\WhatchNext.Biz.pdb
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WhatchNext.DataAccess\WhatchNext.DataAccess.Mock\obj\Debug\WhatchNext.DataAccess.Mock.dll
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WhatchNext.DataAccess\WhatchNext.DataAccess.Mock\obj\Debug\WhatchNext.DataAccess.Mock.pdb
+C:\Users\Hicks\Documents\Visual Studio 2015\Projects\WhatchNext\WhatchNext.DataAccess\WhatchNext.DataAccess.Mock\bin\Debug\WhatchNext.DataAccess.Mock.dll
+C:\Users\Hicks\Documents\Visual Studio 2015\Projects\WhatchNext\WhatchNext.DataAccess\WhatchNext.DataAccess.Mock\bin\Debug\WhatchNext.DataAccess.Mock.pdb
+C:\Users\Hicks\Documents\Visual Studio 2015\Projects\WhatchNext\WhatchNext.DataAccess\WhatchNext.DataAccess.Mock\bin\Debug\Csla.dll
+C:\Users\Hicks\Documents\Visual Studio 2015\Projects\WhatchNext\WhatchNext.DataAccess\WhatchNext.DataAccess.Mock\bin\Debug\WhatchNext.Biz.dll
+C:\Users\Hicks\Documents\Visual Studio 2015\Projects\WhatchNext\WhatchNext.DataAccess\WhatchNext.DataAccess.Mock\bin\Debug\WhatchNext.Biz.pdb
+C:\Users\Hicks\Documents\Visual Studio 2015\Projects\WhatchNext\WhatchNext.DataAccess\WhatchNext.DataAccess.Mock\obj\Debug\WhatchNext.DataAccess.Mock.csprojResolveAssemblyReference.cache
+C:\Users\Hicks\Documents\Visual Studio 2015\Projects\WhatchNext\WhatchNext.DataAccess\WhatchNext.DataAccess.Mock\obj\Debug\WhatchNext.DataAccess.Mock.dll
+C:\Users\Hicks\Documents\Visual Studio 2015\Projects\WhatchNext\WhatchNext.DataAccess\WhatchNext.DataAccess.Mock\obj\Debug\WhatchNext.DataAccess.Mock.pdb

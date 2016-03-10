@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0881453961404272a145f3dedd54d11b" Name="Diagram1" ZoomLevel="77" >
+        <EntityTypeShape EntityType="WhatchNextModel.Shows" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhatchNextModel.ShowImages" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhatchNextModel.ShowVideos" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhatchNextModel.MostPopularShows" Width="2.125" PointX="3" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="WhatchNextModel.ShowsMostPopularShows" />
+        <AssociationConnector Association="WhatchNextModel.ShowsShowImages" />
+        <AssociationConnector Association="WhatchNextModel.ShowsShowVideos" />
+        <EntityTypeShape EntityType="WhatchNextModel.ShowData" PointX="7.875" PointY="6.875" Width="2.875" IsExpanded="true" FillColor="YellowGreen" />
+        <EntityTypeShape EntityType="WhatchNextModel.RankingPopularShows" Width="3" PointX="7.875" PointY="4.125" FillColor="YellowGreen" IsExpanded="true" />
+        <AssociationConnector Association="WhatchNextModel.RankingPopularShowsPopularShowsData" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

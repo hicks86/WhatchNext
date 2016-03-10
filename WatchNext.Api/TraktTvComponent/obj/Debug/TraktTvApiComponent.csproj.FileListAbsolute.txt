@@ -1,0 +1,16 @@
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WatchNext.Api\TraktTvComponent\bin\Debug\TraktTvComponent.dll.config
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WatchNext.Api\TraktTvComponent\bin\Debug\TraktTvComponent.dll
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WatchNext.Api\TraktTvComponent\bin\Debug\TraktTvComponent.pdb
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WatchNext.Api\TraktTvComponent\obj\Debug\TraktTvApiComponent.csprojResolveAssemblyReference.cache
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WatchNext.Api\TraktTvComponent\obj\Debug\TraktTvComponent.dll
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WatchNext.Api\TraktTvComponent\obj\Debug\TraktTvComponent.pdb
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WatchNext.Api\TraktTvComponent\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WatchNext.Api\TraktTvComponent\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Hicks\Documents\Visual Studio 2015\Projects\WhatchNext\WatchNext.Api\TraktTvComponent\bin\Debug\TraktTvComponent.dll.config
+C:\Users\Hicks\Documents\Visual Studio 2015\Projects\WhatchNext\WatchNext.Api\TraktTvComponent\bin\Debug\TraktTvComponent.dll
+C:\Users\Hicks\Documents\Visual Studio 2015\Projects\WhatchNext\WatchNext.Api\TraktTvComponent\bin\Debug\TraktTvComponent.pdb
+C:\Users\Hicks\Documents\Visual Studio 2015\Projects\WhatchNext\WatchNext.Api\TraktTvComponent\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Hicks\Documents\Visual Studio 2015\Projects\WhatchNext\WatchNext.Api\TraktTvComponent\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Hicks\Documents\Visual Studio 2015\Projects\WhatchNext\WatchNext.Api\TraktTvComponent\obj\Debug\TraktTvApiComponent.csprojResolveAssemblyReference.cache
+C:\Users\Hicks\Documents\Visual Studio 2015\Projects\WhatchNext\WatchNext.Api\TraktTvComponent\obj\Debug\TraktTvComponent.dll
+C:\Users\Hicks\Documents\Visual Studio 2015\Projects\WhatchNext\WatchNext.Api\TraktTvComponent\obj\Debug\TraktTvComponent.pdb

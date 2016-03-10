@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Popular Shows";
+    
+    
+}
+
+
+<script>
+
+    $(document).ready(function (e) {
+
+        $(".partialContents").each(function (index, item) {
+            var url = $(item).data("url");
+            if (url && url.length > 0) {
+                $(item).load(url);
+            }
+        });
+
+    });
+</script>
+
+<div class="popularShows">
+    <h2>@ViewBag.Title.</h2>
+    <div class="partialContents" data-url="getpopular">
+        
+        <div class="progress">
+            <div class="indeterminate"></div>
+        </div>
+
+         Loading content......
+
+    </div>
+</div>
+
+

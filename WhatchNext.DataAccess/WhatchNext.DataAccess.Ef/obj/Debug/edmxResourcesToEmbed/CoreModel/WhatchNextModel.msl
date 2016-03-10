@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WhatchNextModelStoreContainer" CdmEntityContainer="WhatchNextModelContainer">
+    <EntitySetMapping Name="Shows">
+      <EntityTypeMapping TypeName="IsTypeOf(WhatchNextModel.Shows)">
+        <MappingFragment StoreEntitySet="Shows">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Overview" ColumnName="Overview" />
+          <ScalarProperty Name="Rating" ColumnName="Rating" />
+          <ScalarProperty Name="Slug" ColumnName="Slug" />
+          <ScalarProperty Name="TraktApiId" ColumnName="TraktApiId" />
+          <ScalarProperty Name="TvdbApiId" ColumnName="TvdbApiId" />
+          <ScalarProperty Name="ImdbApiId" ColumnName="ImdbApiId" />
+          <ScalarProperty Name="TmdbApiId" ColumnName="TmdbApiId" />
+          <ScalarProperty Name="TvRageApiId" ColumnName="TvRageApiId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ShowImages">
+      <EntityTypeMapping TypeName="IsTypeOf(WhatchNextModel.ShowImages)">
+        <MappingFragment StoreEntitySet="ShowImages">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ImageType" ColumnName="ImageType" />
+          <ScalarProperty Name="AspectRatio" ColumnName="AspectRatio" />
+          <ScalarProperty Name="FilePath" ColumnName="FilePath" />
+          <ScalarProperty Name="Height" ColumnName="Height" />
+          <ScalarProperty Name="Width" ColumnName="Width" />
+          <ScalarProperty Name="Iso6391" ColumnName="Iso6391" />
+          <ScalarProperty Name="VoteAverage" ColumnName="VoteAverage" />
+          <ScalarProperty Name="ShowsId" ColumnName="ShowsId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ShowVideos">
+      <EntityTypeMapping TypeName="IsTypeOf(WhatchNextModel.ShowVideos)">
+        <MappingFragment StoreEntitySet="ShowVideos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Key" ColumnName="Key" />
+          <ScalarProperty Name="Site" ColumnName="Site" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+          <ScalarProperty Name="ShowsId" ColumnName="ShowsId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MostPopularShows">
+      <EntityTypeMapping TypeName="IsTypeOf(WhatchNextModel.MostPopularShows)">
+        <MappingFragment StoreEntitySet="MostPopularShows">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ShowsId" ColumnName="ShowsId" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="Rating" ColumnName="Rating" />
+          <ScalarProperty Name="Ranking" ColumnName="Ranking" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ShowDatas">
+      <EntityTypeMapping TypeName="IsTypeOf(WhatchNextModel.ShowData)">
+        <MappingFragment StoreEntitySet="ShowDatas">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ShowId" ColumnName="ShowId" />
+          <ScalarProperty Name="JsonConfiguration" ColumnName="JsonConfiguration" />
+          <ScalarProperty Name="Version" ColumnName="Version" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RankingPopularShows">
+      <EntityTypeMapping TypeName="IsTypeOf(WhatchNextModel.RankingPopularShows)">
+        <MappingFragment StoreEntitySet="RankingPopularShows">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="PopularShowsDataId" ColumnName="PopularShowsDataId" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="Rating" ColumnName="Rating" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

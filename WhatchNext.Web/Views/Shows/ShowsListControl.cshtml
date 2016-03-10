@@ -1,0 +1,33 @@
+﻿<div id="modal1" class="modal">
+    <div class="modal-content">
+        <h4>Modal Header</h4>
+        <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+</div>
+
+<div class="row">
+    @foreach (var item in ViewData.Model)
+    {
+        <div class="col s4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="@item.Poster">
+                    <span class="card-title">@item.Title</span>
+                </div>
+                <div class="card-content">
+                    <p>
+                        <i class="material-icons left">star_rate</i>@string.Format($"{item.Rating.ToString("0.00")}/10")
+                    </p>
+                    <br />
+                </div>
+                <div class="card-action">
+                    <a href="#modal1"><i class="material-icons left">info</i> More info</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+

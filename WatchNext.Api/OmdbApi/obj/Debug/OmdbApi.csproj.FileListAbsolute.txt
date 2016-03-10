@@ -1,0 +1,10 @@
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WatchNext.Api\OmdbApi\bin\Debug\OmdbApi.dll
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WatchNext.Api\OmdbApi\bin\Debug\OmdbApi.pdb
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WatchNext.Api\OmdbApi\obj\Debug\OmdbApi.csprojResolveAssemblyReference.cache
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WatchNext.Api\OmdbApi\obj\Debug\OmdbApi.dll
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WatchNext.Api\OmdbApi\obj\Debug\OmdbApi.pdb
+C:\Users\Hicks\Documents\Visual Studio 2015\Projects\WhatchNext\WatchNext.Api\OmdbApi\bin\Debug\OmdbApi.dll
+C:\Users\Hicks\Documents\Visual Studio 2015\Projects\WhatchNext\WatchNext.Api\OmdbApi\bin\Debug\OmdbApi.pdb
+C:\Users\Hicks\Documents\Visual Studio 2015\Projects\WhatchNext\WatchNext.Api\OmdbApi\obj\Debug\OmdbApi.csprojResolveAssemblyReference.cache
+C:\Users\Hicks\Documents\Visual Studio 2015\Projects\WhatchNext\WatchNext.Api\OmdbApi\obj\Debug\OmdbApi.dll
+C:\Users\Hicks\Documents\Visual Studio 2015\Projects\WhatchNext\WatchNext.Api\OmdbApi\obj\Debug\OmdbApi.pdb

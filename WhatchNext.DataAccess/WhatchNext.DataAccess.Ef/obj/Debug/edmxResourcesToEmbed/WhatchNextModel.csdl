@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="WhatchNextModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="WhatchNextModelContainer" annotation:LazyLoadingEnabled="true" cg:TypeAccess="Internal">
+    <EntitySet Name="Shows" EntityType="WhatchNextModel.Shows" cg:GetterAccess="Internal" />
+    <EntitySet Name="ShowDetails" EntityType="WhatchNextModel.ShowDetails" cg:GetterAccess="Internal" />
+    <EntitySet Name="ShowImages" EntityType="WhatchNextModel.ShowImages" cg:GetterAccess="Internal" />
+    <EntitySet Name="ShowVideos" EntityType="WhatchNextModel.ShowVideos" cg:GetterAccess="Internal" />
+    <EntitySet Name="MostPopulars" EntityType="WhatchNextModel.MostPopular" />
+    <EntitySet Name="MostPopularShows" EntityType="WhatchNextModel.MostPopularShows" cg:GetterAccess="Internal" />
+    <AssociationSet Name="ShowsMostPopularShows" Association="WhatchNextModel.ShowsMostPopularShows">
+      <End Role="Shows" EntitySet="Shows" />
+      <End Role="MostPopularShows" EntitySet="MostPopularShows" />
+    </AssociationSet>
+    <EntitySet Name="Genres" EntityType="WhatchNextModel.Genre" cg:GetterAccess="Internal" />
+    <AssociationSet Name="ShowsGenre" Association="WhatchNextModel.ShowsGenre">
+      <End Role="Shows" EntitySet="Shows" />
+      <End Role="Genre" EntitySet="Genres" />
+    </AssociationSet>
+    <AssociationSet Name="ShowsShowImages" Association="WhatchNextModel.ShowsShowImages">
+      <End Role="Shows" EntitySet="Shows" />
+      <End Role="ShowImages" EntitySet="ShowImages" />
+    </AssociationSet>
+    <AssociationSet Name="ShowsShowVideos" Association="WhatchNextModel.ShowsShowVideos">
+      <End Role="Shows" EntitySet="Shows" />
+      <End Role="ShowVideos" EntitySet="ShowVideos" />
+    </AssociationSet>
+    <AssociationSet Name="ShowsShowDetails" Association="WhatchNextModel.ShowsShowDetails">
+      <End Role="Shows" EntitySet="Shows" />
+      <End Role="ShowDetails" EntitySet="ShowDetails" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Shows" cg:TypeAccess="Internal">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" cg:SetterAccess="Public" />
+    <Property Name="Title" Type="String" Nullable="false" />
+    <Property Name="Slug" Type="String" Nullable="false" />
+    <Property Name="TraktApiId" Type="Int32" Nullable="false" />
+    <Property Name="TvdbApiId" Type="Int32" Nullable="false" />
+    <Property Name="ImdbApiId" Type="String" Nullable="false" />
+    <Property Name="TmdbApiId" Type="Int32" Nullable="true" />
+    <Property Name="TvRageApiId" Type="Int32" Nullable="true" />
+    <NavigationProperty Name="Genres" Relationship="WhatchNextModel.ShowsGenre" FromRole="Shows" ToRole="Genre" />
+    <NavigationProperty Name="ShowImages" Relationship="WhatchNextModel.ShowsShowImages" FromRole="Shows" ToRole="ShowImages" />
+    <NavigationProperty Name="ShowVideos" Relationship="WhatchNextModel.ShowsShowVideos" FromRole="Shows" ToRole="ShowVideos" />
+    <NavigationProperty Name="ShowDetails" Relationship="WhatchNextModel.ShowsShowDetails" FromRole="Shows" ToRole="ShowDetails" />
+  </EntityType>
+  <EntityType Name="ShowDetails" cg:TypeAccess="Internal">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Overview" Type="String" Nullable="false" />
+    <Property Name="Rating" Type="Double" Nullable="false" />
+    <Property Name="ShowsId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ShowImages" cg:TypeAccess="Internal">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ImageType" Type="String" Nullable="false" />
+    <Property Name="AspectRatio" Type="Double" Nullable="false" />
+    <Property Name="FilePath" Type="String" Nullable="false" />
+    <Property Name="Height" Type="Int32" Nullable="false" />
+    <Property Name="Width" Type="Int32" Nullable="false" />
+    <Property Name="Iso6391" Type="String" Nullable="true" />
+    <Property Name="VoteAverage" Type="Double" Nullable="false" />
+    <Property Name="ShowsId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ShowVideos" cg:TypeAccess="Internal">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Type" Type="String" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="Key" Type="String" Nullable="false" />
+    <Property Name="Site" Type="String" Nullable="false" />
+    <Property Name="Size" Type="Int32" Nullable="false" />
+    <Property Name="ShowsId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MostPopular">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="MostPopularShows" cg:TypeAccess="Internal">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ShowsId" Type="Int32" Nullable="false" />
+    <Property Name="StartDate" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="Show" Relationship="WhatchNextModel.ShowsMostPopularShows" FromRole="MostPopularShows" ToRole="Shows" />
+    <Property Name="Rating" Type="Double" Nullable="false" />
+    <Property Name="Ranking" Type="Int32" Nullable="false" />
+    <Property Name="EndDate" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <Association Name="ShowsMostPopularShows">
+    <End Type="WhatchNextModel.Shows" Role="Shows" Multiplicity="1" />
+    <End Type="WhatchNextModel.MostPopularShows" Role="MostPopularShows" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shows">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="MostPopularShows">
+        <PropertyRef Name="ShowsId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Genre" cg:TypeAccess="Internal">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="TraktGenreId" Type="String" Nullable="false" />
+    <Property Name="TmdbGenreId" Type="String" Nullable="false" />
+    <NavigationProperty Name="Shows" Relationship="WhatchNextModel.ShowsGenre" FromRole="Genre" ToRole="Shows" />
+  </EntityType>
+  <Association Name="ShowsGenre">
+    <End Type="WhatchNextModel.Shows" Role="Shows" Multiplicity="*" />
+    <End Type="WhatchNextModel.Genre" Role="Genre" Multiplicity="*" />
+  </Association>
+  <Association Name="ShowsShowImages">
+    <End Type="WhatchNextModel.Shows" Role="Shows" Multiplicity="1" />
+    <End Type="WhatchNextModel.ShowImages" Role="ShowImages" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shows">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ShowImages">
+        <PropertyRef Name="ShowsId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ShowsShowVideos">
+    <End Type="WhatchNextModel.Shows" Role="Shows" Multiplicity="1" />
+    <End Type="WhatchNextModel.ShowVideos" Role="ShowVideos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shows">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ShowVideos">
+        <PropertyRef Name="ShowsId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ShowsShowDetails">
+    <End Type="WhatchNextModel.Shows" Role="Shows" Multiplicity="1" />
+    <End Type="WhatchNextModel.ShowDetails" Role="ShowDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shows">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ShowDetails">
+        <PropertyRef Name="ShowsId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

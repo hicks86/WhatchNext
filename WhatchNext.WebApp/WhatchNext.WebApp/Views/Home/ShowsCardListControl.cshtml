@@ -1,0 +1,147 @@
+﻿<style>
+    .wnModalImage {
+        position: relative;
+        width: 100%;
+        background: antiquewhite;
+    }
+
+    .wnModalImage img {
+        width: 100%;
+    }
+
+    .modal.modal-fixed-footer{
+        max-height:96% !important;
+        top: 1% !important;
+        padding: 0;
+        height: 96%;
+    }
+    .star{
+        font-size: 29px;
+    }
+    .star-light-blue{
+        color:#29b6f6;
+    }
+    .star-gold{
+        color: gold;
+    }
+    .star-red{
+        color: red;
+    }
+    .star-blue{
+        color: blue;
+    }
+
+    ul.star-rating li {
+        display: inline;
+    }
+
+</style>
+
+
+@foreach (var item in ViewData.Model)
+{
+    <div id="@string.Format($"modal{item.Id.Key}")" class="modal modal-fixed-footer" >
+        <div class="modal-content">
+            <h4>@item.Title</h4>
+            <p>@item.Overview</p>
+
+            <ul class="collapsible" data-collapsible="accordion">
+                <li>
+                    <div class="collapsible-header"><i class="fa fa-picture-o"></i>Images</div>
+                    <div class="collapsible-body">
+                        <div class="slider">
+                            <ul class="slides">
+                                @*@foreach (var image in item.QuickGallery)
+                                {
+                                <li>
+                                    <img src="@image.Poster">
+                                </li>
+                                }*@
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    @*<div class="collapsible-header"><i class="fa fa-file-video-o"></i>@item.Seasons.Count Seasons</div>
+                    <div class="collapsible-body">
+                        <div class="row">
+                            
+                            @foreach (var season in item.Seasons)
+                            {
+                                <div class="col s3">
+                                    <div class="card">
+                                        <div class="card-image">
+                                            <img src="@season.SeasonPoster">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+
+                         </div>
+                    </div>*@
+                </li>
+            </ul>
+
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect btn-flat ">Close</a>
+        </div>
+    </div>
+
+    <div class="col s6">
+
+        <div class="card">
+            <div class="card-image">
+                <img src="@item.Poster">
+                <span class="card-title">@item.Title</span>
+            </div>
+            <div class="card-content">
+                <div class="stacked-icons">
+                    <ul class="star-rating">
+                        <li>
+
+                            <span class="fa-stack fa-3x">
+                                <i class="fa fa-star fa-stack-2x star-light-blue"></i>
+                                <strong class="fa-stack-1x" style="color:white; font-size:15px">
+                                    @item.Rating.ConvertToPercentage(item.Rating.CombinedRating)
+                                </strong>
+                            </span>
+
+
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="card-action">
+                <a class="modal-trigger" href="@string.Format($"#modal{item.Id.Key}")">Show Details</a>
+            </div>
+        </div>
+
+    </div>
+}
+
+<script>
+        $(document).ready(function () {
+            // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+            $('.modal-trigger').leanModal();
+        });
+
+        $(document).ready(function () {
+            $('.slider').slider({ height: 300 });
+        });
+
+        $(document).ready(function () {
+            $('.collapsible').collapsible({
+                accordion: false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+            });
+        });
+
+    
+</script>
+
+
+
+
+

@@ -1,0 +1,12 @@
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WhatchNext.Utilities\WhatchNext.Console\WhatchNext.DataAccess.EfTests\bin\Debug\WhatchNext.DataAccess.EfTests.dll
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WhatchNext.Utilities\WhatchNext.Console\WhatchNext.DataAccess.EfTests\bin\Debug\WhatchNext.DataAccess.EfTests.pdb
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WhatchNext.Utilities\WhatchNext.Console\WhatchNext.DataAccess.EfTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WhatchNext.Utilities\WhatchNext.Console\WhatchNext.DataAccess.EfTests\bin\Debug\WhatchNext.DataAccess.Ef.dll
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WhatchNext.Utilities\WhatchNext.Console\WhatchNext.DataAccess.EfTests\bin\Debug\Csla.dll
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WhatchNext.Utilities\WhatchNext.Console\WhatchNext.DataAccess.EfTests\bin\Debug\WhatchNext.Biz.dll
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WhatchNext.Utilities\WhatchNext.Console\WhatchNext.DataAccess.EfTests\bin\Debug\EntityFramework.dll
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WhatchNext.Utilities\WhatchNext.Console\WhatchNext.DataAccess.EfTests\bin\Debug\WhatchNext.DataAccess.Ef.pdb
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WhatchNext.Utilities\WhatchNext.Console\WhatchNext.DataAccess.EfTests\bin\Debug\WhatchNext.Biz.pdb
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WhatchNext.Utilities\WhatchNext.Console\WhatchNext.DataAccess.EfTests\obj\Debug\WhatchNext.DataAccess.Ef.Tests.csprojResolveAssemblyReference.cache
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WhatchNext.Utilities\WhatchNext.Console\WhatchNext.DataAccess.EfTests\obj\Debug\WhatchNext.DataAccess.EfTests.dll
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\WhatchNext.Utilities\WhatchNext.Console\WhatchNext.DataAccess.EfTests\obj\Debug\WhatchNext.DataAccess.EfTests.pdb

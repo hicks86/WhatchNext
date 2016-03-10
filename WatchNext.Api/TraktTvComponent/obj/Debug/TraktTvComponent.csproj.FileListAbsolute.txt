@@ -1,0 +1,8 @@
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\TraktTvComponent\TraktTvComponent\bin\Debug\TraktTvComponent.dll.config
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\TraktTvComponent\TraktTvComponent\bin\Debug\TraktTvComponent.dll
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\TraktTvComponent\TraktTvComponent\bin\Debug\TraktTvComponent.pdb
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\TraktTvComponent\TraktTvComponent\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\TraktTvComponent\TraktTvComponent\bin\Debug\Newtonsoft.Json.xml
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\TraktTvComponent\TraktTvComponent\obj\Debug\TraktTvComponent.csprojResolveAssemblyReference.cache
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\TraktTvComponent\TraktTvComponent\obj\Debug\TraktTvComponent.dll
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\TraktTvComponent\TraktTvComponent\obj\Debug\TraktTvComponent.pdb

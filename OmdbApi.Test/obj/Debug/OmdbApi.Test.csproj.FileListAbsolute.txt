@@ -1,0 +1,17 @@
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\OmdbApi.Test\bin\Debug\OmdbApi.Test.dll
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\OmdbApi.Test\bin\Debug\OmdbApi.Test.pdb
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\OmdbApi.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\OmdbApi.Test\bin\Debug\OmdbApi.dll
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\OmdbApi.Test\bin\Debug\OmdbApi.pdb
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\OmdbApi.Test\obj\Debug\OmdbApi.Test.csprojResolveAssemblyReference.cache
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\OmdbApi.Test\obj\Debug\OmdbApi.Test.dll
+C:\Users\rhys\Documents\Visual Studio 2015\Projects\WhatchNext\OmdbApi.Test\obj\Debug\OmdbApi.Test.pdb
+C:\Users\Hicks\Documents\Visual Studio 2015\Projects\WhatchNext\OmdbApi.Test\bin\Debug\OmdbApi.Test.dll
+C:\Users\Hicks\Documents\Visual Studio 2015\Projects\WhatchNext\OmdbApi.Test\bin\Debug\OmdbApi.Test.pdb
+C:\Users\Hicks\Documents\Visual Studio 2015\Projects\WhatchNext\OmdbApi.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Hicks\Documents\Visual Studio 2015\Projects\WhatchNext\OmdbApi.Test\bin\Debug\OmdbApi.dll
+C:\Users\Hicks\Documents\Visual Studio 2015\Projects\WhatchNext\OmdbApi.Test\bin\Debug\OmdbApi.pdb
+C:\Users\Hicks\Documents\Visual Studio 2015\Projects\WhatchNext\OmdbApi.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Hicks\Documents\Visual Studio 2015\Projects\WhatchNext\OmdbApi.Test\obj\Debug\OmdbApi.Test.csprojResolveAssemblyReference.cache
+C:\Users\Hicks\Documents\Visual Studio 2015\Projects\WhatchNext\OmdbApi.Test\obj\Debug\OmdbApi.Test.dll
+C:\Users\Hicks\Documents\Visual Studio 2015\Projects\WhatchNext\OmdbApi.Test\obj\Debug\OmdbApi.Test.pdb
